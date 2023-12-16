@@ -1,0 +1,22 @@
+public enum Seosen {
+    summer("Лето", 23), winter("Зима", -18), spring("осень", 10), autumn("Весна", 16);
+    private String Traslation;
+    private int Temerature;
+    Seosen(String Traslation, int Temerature) {
+
+        this.Traslation = Traslation;
+        this.Temerature = Temerature;
+
+    }
+    public int getTemerature() {
+        return Temerature;
+    }
+    public String getTraslation() {
+        return Traslation;
+    }
+
+    public String toString(){
+    return "Русский язык: " + Traslation;
+    }
+
+}
